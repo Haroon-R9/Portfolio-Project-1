@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* colors*/
+:root{
+    --bg-green:rgba(202, 255, 51, 1);
+    --bg-dark:rgba(28, 28, 28, 1);
+    --bg38-dark:rgba(38, 38, 38, 1)
+    
+}
+.text-color{
+    color:rgba(202, 255, 51, 1); 
+    
+}
+.log-btn{
+    background-color: var(--bg-green);
+    width: 109px;
+    height: 55px;
+}
+.body{
+    background-color: #191919;
+}
+.nav-ul-margin{
+    margin-left: 350px;
+}
+
+/***** NavBar Section *****/
+
+.nav-bar {
+    background-color: var(--bg-1);
+  
+    padding: 20px 34px 20px 34px;
+  }
+  .nav-list {
+    color: var(--text-1);
+  }
+  
+  .home-btn {
+    background-color: #262626;
+    padding: 12px 24px 12px 24px;
+  }
+  .login-btn {
+    padding: 14px 30px 14px 30px;
+    background-color: #caff33;
+  }
+  .signup-btn {
+    padding: 14px 30px 14px 30px;
+    color: white;
+  }
+  .list-btn {
+    padding: 12px 24px 12px 24px;
+  }
+ 
+
+
+

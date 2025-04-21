@@ -1,0 +1,100 @@
+:root{
+    --bg-green:rgba(202, 255, 51, 1);
+    --bg-dark:rgba(28, 28, 28, 1);
+    --bg38-dark:rgba(38, 38, 38, 1)
+    
+}
+.body{
+    background-color: #191919;
+}
+.text-color{
+    color:rgba(202, 255, 51, 1); 
+}
+
+
+.log-btn{
+    background-color: var(--bg-green);
+    width: 109px;
+    height: 55px;
+}
+
+.nav-ul-margin{
+    margin-left: 350px;
+}
+.card-our-benefits{
+    width: 500px;
+    height: 250px;
+    border-radius: 12px;
+    opacity: 30%;
+    background: linear-gradient(
+        to bottom, 
+        rgba(202, 255, 51, 1), 
+        rgba(202, 255, 51, 0)
+    );
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card{
+    width: 500px;
+    height: 250px;
+    color: white;
+    background-color:var(--bg-dark);
+ }
+ .btn{
+    background-color: var(--bg-green);
+    color: black;
+    width: 150px;
+ }
+ .waseem{
+    margin-top: 50%;
+ }
+ /***** NavBar Section *****/
+
+.nav-bar {
+    background-color: var(--bg-1);
+  
+    padding: 20px 34px 20px 34px;
+  }
+  .nav-list {
+    color: var(--text-1);
+  }
+  
+  .home-btn {
+    background-color: #262626;
+    padding: 12px 24px 12px 24px;
+  }
+  .login-btn {
+    padding: 14px 30px 14px 30px;
+    background-color: #caff33;
+  }
+  .signup-btn {
+    padding: 14px 30px 14px 30px;
+    color: white;
+  }
+  .list-btn {
+    padding: 12px 24px 12px 24px;
+  }
+ /***** CTA Design Section *****/
+.cta{
+    border: solid 2px;
+    border-radius:20px ;
+    margin-top: 100px;
+}
+.cta-img {
+    height: 250px;
+    width: 240px;
+    
+}
+.cta-btn-div{
+    margin-top: 70px;
+    padding-left: 110px;
+}
+.cta-btn{
+    background-color:#caff33 ;
+    padding: 18px 30px ;
+}
+.ctn-text{
+    padding: 60px;
+    width: 1000px;
+    
+}

@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+:root {
+  --bg-1: #1c1c1c;
+  --bg-2: #191919;
+  --text-1: white;
+  --text-2: #caff33;
+}
+* {
+  font-family: "lexend";
+}
+.text-1 {
+  color: var(--text-1);
+}
+.text-2 {
+  color: var(--text-2);
+}
+.bg-1 {
+  background-color: var(--bg-1);
+}
+.body {
+  background-color: #191919;
+}
+/***** NavBar Section *****/
+
+.nav-bar {
+  background-color: var(--bg-1);
+
+  padding: 20px 34px 20px 34px;
+}
+.nav-list {
+  color: var(--text-1);
+}
+
+.home-btn {
+  background-color: #262626;
+  padding: 12px 24px 12px 24px;
+}
+.login-btn {
+  padding: 14px 30px 14px 30px;
+  background-color: #caff33;
+}
+.signup-btn {
+  padding: 14px 30px 14px 30px;
+  color: white;
+}
+.list-btn {
+  padding: 12px 24px 12px 24px;
+}
+/***** Hero Section *****/
+
+
+.tick-img {
+  width: 24px;
+  height: 24px;
+}
+
+.Open-Acc-btn {
+  background-color: #caff33;
+  padding: 18px 30px;
+}
+
+.hero-s-div {
+  color: var(--text-1);
+  border-image: linear-gradient(to top right, #caff33 0%, #1c1c1c 50%) 1;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #1a1a1a;
+}
+.m-exc-div {
+  width: 150px;
+}
+.exchange-btn {
+  background-color: #2c3122;
+  color: #d1ff4d;
+  padding: 13px 26px;
+  width: 100%;
+}
+.img-s-div {
+  width: 449px;
+  height: 420px;
+  z-index: 1;
+}
+.vector-img {
+  width: 417px;
+  height: 382px;
+  position: absolute;
+  z-index: -1;
+  padding: 0px 0px;
+  top: 200px;
+  right: 100px;
+}
+.vector-div {
+  padding: 0px 50px 0px 0px;
+}
+/***** btn-container Section *****/
+.btn-container {
+  padding-top   : 14px;
+  padding-bottom   : 14px;
+  height: 80px;
+  border: 1px;
+  background-color: #1c1c1c;
+  border-radius: 82px;
+  margin-top: 30px;
+}
+.vr {
+  color: #262626;
+  border: 1px;
+  width: 5px;
+}
+.for-ind-btn {
+
+  background-color: #caff33;
+}
+
+/***** End Section *****/
+
+/***** Our Product Section *****/
+
+.our-pro {
+  margin-top: 100px;
+}
+
+
+/***** End Section *****/
+
+/***** use cases Section *****/
+.use-cases {
+  margin-top: 100px;
+}
+.use-div-1 {
+  gap: 100px;
+}
+.use-div-2 {
+  gap: 60px;
+}
+.use-div-3 {
+  padding-top: 50px;
+  gap: 60px;
+}
+.img-use-div {
+  width: 700px;
+}
+.learn-more-btn {
+  background-color: #1c1c1c;
+  border: 1px;
+  padding: 18px 24px 18px 24px;
+  margin-top: 90px;
+  border-color: #262626;
+}
+/***** End Section *****/
+
+/***** Our features Section *****/
+
+.our-fea-btn-div {
+  height: 330px;
+  gap: 24px;
+  border-radius: 12px;
+}
+.our-fea-btn {
+  background-color: #1a1a1a;
+  border: 1px;
+  border-color: #262626;
+  border-radius: 100px;
+}
+
+
+
+
+
+/***** End Section *****/
+
+/***** frequently asked Section *****/
+.frequently-ask {
+  margin-top: 100px;
+}
+.faq-box {
+  border: solid 1px;
+  border-color: #262626;
+  border-radius: 14px;
+  padding: 30px;
+  gap: 20px;
+}
+
+.btn {
+  background-color: #1c1c1c;
+  border-color: #262626;
+  border: 1px;
+  padding: 18px 24px;
+  display: flex;
+  margin-left: 630px;
+}
+.hr-new {
+  border: solid 1px;
+  border-color: #262626;
+}
+
+/***** End Section *****/
+
+/***** testimonial Section *****/
+.test-div {
+  margin-top: 50px;
+  gap: 30px;
+}
+.test {
+  width: 500px;
+}
+ 
+/***** End Section *****/
+
+/***** CTA Design Section *****/
+.cta{
+    border: solid 2px;
+    border-radius:20px ;
+    margin-top: 100px;
+}
+.cta-img {
+    height: 250px;
+    width: 240px;
+}
+.cta-btn-div{
+    margin-top: 70px;
+    padding-left: 110px;
+}
+.cta-btn{
+    background-color:#caff33 ;
+    padding: 18px 30px ;
+}
+.ctn-text{
+    padding: 60px;
+    width: 1000px;
+    
+}
+
+
+/***** End Section *****/
